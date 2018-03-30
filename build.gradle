@@ -9,13 +9,13 @@ buildscript {
         maven {
             url "http://mvn.mob.com/android"
          }
-        //mavenCentral()
+        mavenCentral()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.0.1'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         //分享 mob
-       // classpath 'com.mob.sdk:MobSDK:+'
+        classpath 'com.mob.sdk:MobSDK:+'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
