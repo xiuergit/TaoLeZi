@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">淘乐子</string>
+    <string name="home">首页</string>
+    <string name="me">我的</string>
+    <string name="send">发布</string>
+
+    <string name="duanzi">段子</string>
+    <string name="shouCang">收藏</string>
+    <string name="dongtai">动态</string>
+
+    <string name="yijianfankui">意见反馈</string>
+    <string name="about">关于淘乐子</string>
+
+    <string name="guanggao">广告合作</string>
+    <string name="sendtishi">小伙子，听说你会开车？</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">请输入ID</string>
+    <string name="prompt_password">请输入密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">密码长度太短必须大于6</string>
+    <string name="error_incorrect_password">密码不正确</string>
+    <string name="error_field_required">不能为空</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+
+</resources>

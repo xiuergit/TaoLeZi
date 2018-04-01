@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <com.xiuer.taolezi.Common.TLZTopNav
+        android:id="@+id/mTopNav"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"></com.xiuer.taolezi.Common.TLZTopNav>
+
+        <EditText
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/mSuggest"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:scrollIndicators="right"
+            android:hint="请输入您的意见，我们会尽快处理"
+            android:background="@drawable/frame_back"
+            android:padding="1dp"
+            android:gravity="top"
+            />
+        <EditText
+           android:layout_margin="20dp"
+            android:id="@+id/mPhoneOrEmail"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="请输入邮箱或者手机号码"
+            android:gravity="center"
+            android:background="@drawable/frame_back"/>
+        <Button
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="提交"
+            android:background="@drawable/frame_circle_back"
+            android:textColor="@color/white"
+            />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="3"
+          />
+
+
+</LinearLayout>

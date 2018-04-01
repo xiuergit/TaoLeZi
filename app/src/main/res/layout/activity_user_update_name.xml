@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.xiuer.taolezi.User.UserUpdateNameActivity">
+    <com.xiuer.taolezi.Common.TLZTopNav
+        android:id="@+id/mNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    </com.xiuer.taolezi.Common.TLZTopNav>
+
+<EditText
+    android:layout_marginTop="10dp"
+    android:paddingVertical="5dp"
+    android:paddingLeft="10dp"
+    android:id="@+id/mNickName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/app_name"
+    android:background="@color/white"
+    android:text="@string/app_name"/>
+
+
+</LinearLayout>

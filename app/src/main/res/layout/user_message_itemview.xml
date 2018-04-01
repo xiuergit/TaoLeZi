@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/mRootView"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/mUserTitle"
+        android:text="@string/app_name"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:gravity="center"
+        android:id="@+id/mArrow"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/right_arrow"/>
+    <ImageView
+        android:gravity="center"
+        android:id="@+id/mHead"
+        android:padding="10dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/mArrow"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/default_icon1"/>
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/mUserContent"
+        android:text="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="right"
+        android:layout_toLeftOf="@id/mArrow"/>
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/homeLine"/>
+
+</RelativeLayout>

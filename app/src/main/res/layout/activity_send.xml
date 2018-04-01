@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.xiuer.taolezi.Send.SendActivity">
+
+    <RelativeLayout
+        android:id="@+id/mTopNav"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/mBack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:gravity="center"
+            android:onClick="quite"
+            android:src="@drawable/delete"
+            android:layout_margin="20dp"/>
+        <TextView
+            android:id="@+id/mSend"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:onClick="send"
+            android:text="发布"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@color/colorMain"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/mSendContext"
+        android:layout_below="@id/mTopNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sendtishi"
+        android:paddingLeft="10dp"
+        android:lines="5"
+        android:background="@color/white"/>
+    <Button
+        android:layout_margin="10dp"
+        android:layout_below="@id/mSendContext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择图片"
+        android:onClick="selectImage"
+        android:background="@drawable/frame_selectimage_back"
+        android:id="@+id/button" />
+
+    <ImageView
+        android:id="@+id/mSendImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button"
+        />
+
+</RelativeLayout>

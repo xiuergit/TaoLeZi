@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--行情页面的每一项-->
+<LinearLayout
+    android:id="@+id/root_details_item"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <!--评论页面-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/mCommentIcon"
+            android:layout_margin="10dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/default_icon1"/>
+
+        <TextView
+            android:id="@+id/mCommentName"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@android:color/holo_blue_light"
+            android:layout_toRightOf="@id/mCommentIcon"/>
+        <TextView
+            android:id="@+id/mCommentContext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/colorLine"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_below="@id/mCommentName"
+            android:layout_toRightOf="@id/mCommentIcon"
+          />
+
+        <TextView
+            android:id="@+id/mCommentTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/colorLine"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:layout_below="@id/mCommentContext"
+            android:layout_toRightOf="@id/mCommentIcon"
+            />
+        <TextView
+            android:id="@+id/mCommentAnswer"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="回复"
+            android:textColor="@color/colorLine"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:layout_below="@id/mCommentContext"
+            android:layout_toRightOf="@id/mCommentTime"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/homeLine"
+            android:layout_below="@id/mCommentAnswer"
+            android:layout_toRightOf="@id/mCommentIcon"
+            />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

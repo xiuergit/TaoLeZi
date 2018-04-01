@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@color/white"
+android:id="@+id/mUserMessage"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="5dp"
+android:paddingHorizontal="20dp">
+<ImageView
+    android:id="@+id/mUMImage"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    />
+<TextView
+    android:id="@+id/mUMName"
+    android:layout_marginLeft="10dp"
+    android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Small"
+    android:textColor="@color/black"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/mUMImage"
+    />
+<TextView
+    android:id="@+id/mUMTime"
+    android:layout_marginLeft="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/mUMName"
+    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+    android:textColor="@color/colorLine"
+    android:layout_toRightOf="@id/mUMImage"
+    />
+</RelativeLayout>

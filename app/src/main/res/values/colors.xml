@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="adBackColor">#09AAAA</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorMain">#FF8C00</color>
+    <color name="colorText">#e0e0e0</color>
+    <color name="colorLine">#BDBDBD</color>
+    <color name="colorLineA">#9E9E9E</color>
+    <color name="colorBack">#7FA0A0A0</color>
+    <color name="colorBottomBack">#FFFAF7F7</color>
+    <color name="colorBottomBack1">#1AA0A0A0</color>
+    <color name="colorSmallText">#5AA0A0A0</color>
+    <color name="colorCountText">#818181</color>
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+
+    <color name="homeLine" >#F5F5F5</color>
+    <color name="homeLinesolid" >#FaFaFa</color>
+
+</resources>

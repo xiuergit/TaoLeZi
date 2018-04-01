@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/homeLine"
+    tools:context="com.xiuer.taolezi.User.UserMeessageActivity">
+
+ <com.xiuer.taolezi.Common.TLZTopNav
+     android:id="@+id/mTopNav"
+     android:layout_width="match_parent"
+     android:layout_height="48dp"
+     >
+ </com.xiuer.taolezi.Common.TLZTopNav>
+
+
+ <com.jude.easyrecyclerview.EasyRecyclerView
+     android:id="@+id/myMessage"
+     android:layout_marginTop="10dp"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     app:layout_empty="@layout/view_empty"
+     android:background="@color/white">
+ </com.jude.easyrecyclerview.EasyRecyclerView>
+
+
+ <!--<LinearLayout-->
+     <!--android:layout_width="match_parent"-->
+     <!--android:layout_height="wrap_content"-->
+     <!--android:orientation="horizontal"-->
+     <!--android:layout_marginTop="10dp"-->
+     <!--android:background="@color/white">-->
+  <!--<TextView-->
+      <!--android:layout_marginLeft="10dp"-->
+      <!--android:layout_width="0dp"-->
+      <!--android:layout_weight="1"-->
+      <!--android:layout_height="wrap_content"-->
+      <!--android:text="头像"-->
+      <!--android:gravity="center_vertical"-->
+      <!--android:layout_gravity="center"/>-->
+  <!--<ImageButton-->
+      <!--android:id="@+id/mUserIcon"-->
+      <!--android:layout_width="48dp"-->
+      <!--android:layout_height="48dp"-->
+      <!--android:layout_marginRight="10dp"-->
+      <!--android:layout_margin="20dp"-->
+      <!--android:background="@drawable/default_icon1"/>-->
+ <!--</LinearLayout>-->
+
+ <!--<LinearLayout-->
+     <!--android:layout_width="match_parent"-->
+     <!--android:layout_height="wrap_content"-->
+     <!--android:orientation="horizontal"-->
+     <!--android:layout_marginTop="1dp"-->
+     <!--android:background="@color/white">-->
+  <!--<TextView-->
+      <!--android:layout_width="0dp"-->
+      <!--android:layout_weight="3"-->
+      <!--android:layout_height="wrap_content"-->
+      <!--android:text="昵称"-->
+      <!--android:layout_marginLeft="10dp"-->
+      <!--android:gravity="center_vertical"-->
+      <!--android:layout_gravity="center"/>-->
+  <!--<EditText-->
+      <!--android:id="@+id/mUserNickm"-->
+      <!--android:layout_width="0dp"-->
+      <!--android:layout_weight="1"-->
+      <!--android:text="@string/app_name"-->
+      <!--android:layout_gravity="right"-->
+      <!--android:layout_height="wrap_content"-->
+      <!--android:layout_marginRight="10dp"-->
+      <!--android:layout_margin="10dp"-->
+      <!--android:focusable="false"-->
+      <!---->
+    <!--/>-->
+ <!--</LinearLayout>-->
+
+ <!--<LinearLayout-->
+     <!--android:layout_width="match_parent"-->
+     <!--android:layout_height="wrap_content"-->
+     <!--android:orientation="horizontal"-->
+     <!--android:layout_marginTop="1dp"-->
+     <!--android:background="@color/white">-->
+  <!--<TextView-->
+      <!--android:layout_width="0dp"-->
+      <!--android:layout_weight="3"-->
+      <!--android:layout_height="wrap_content"-->
+      <!--android:text="ID"-->
+      <!--android:layout_marginLeft="10dp"-->
+      <!--android:gravity="center_vertical"-->
+      <!--android:layout_gravity="center"/>-->
+  <!--<TextView-->
+      <!--android:id="@+id/mUID"-->
+      <!--android:layout_width="0dp"-->
+      <!--android:layout_height="wrap_content"-->
+      <!--android:layout_marginRight="10dp"-->
+      <!--android:layout_weight="1"-->
+      <!--android:layout_margin="10dp"-->
+      <!--android:text="012345" />-->
+ <!--</LinearLayout>-->
+
+ <!--<LinearLayout-->
+     <!--android:layout_width="match_parent"-->
+     <!--android:layout_height="wrap_content"-->
+     <!--android:orientation="horizontal"-->
+     <!--android:layout_marginTop="1dp"-->
+     <!--android:background="@color/white">-->
+ <!--<TextView-->
+     <!--android:layout_width="0dp"-->
+     <!--android:layout_weight="3"-->
+     <!--android:layout_height="wrap_content"-->
+     <!--android:text="性别"-->
+     <!--android:paddingLeft="10dp"-->
+     <!--android:gravity="center_vertical"-->
+     <!--android:layout_gravity="center"/>-->
+ <!--<TextView-->
+     <!--android:id="@+id/mUserSex"-->
+     <!--android:layout_width="0dp"-->
+     <!--android:layout_height="wrap_content"-->
+     <!--android:layout_weight="1"-->
+     <!--android:layout_marginRight="10dp"-->
+     <!--android:layout_margin="10dp"-->
+     <!--android:text="女"/>-->
+<!--</LinearLayout>-->
+
+
+</LinearLayout>

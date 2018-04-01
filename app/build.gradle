@@ -1,0 +1,79 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+apply plugin: 'com.mob.sdk'
+
+def retrofitVersion = '2.1.0'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.xiuer.taolezi"
+        minSdkVersion 17
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+MobSDK {
+    appKey "24d10ce932681"
+    appSecret "8b0764a1d07b7f1b1587de629c944447"
+
+    ShareSDK {
+        //平台配置信息
+        devInfo {
+            SinaWeibo {
+                appKey "3484330179"
+                appSecret "9b71e3dae19df54bfd6b85bb88eb3722"
+                callbackUri "http://www.sharesdk.cn"
+                shareByAppClient false
+            }
+            Wechat {
+                appId "wx4868b35061f87885"
+                appSecret "64020361b8ec4c99936c0e3999a9f249"
+            }
+            QQ {
+                appId "1106801900"
+                appKey "bX66gmFHv9v6BM9J"
+            }
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.android.support:support-v4:26.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    implementation 'com.squareup.okhttp:okhttp:2.0.0'
+    implementation 'com.android.support:recyclerview-v7:26.1.0'
+    implementation 'com.android.support:design:26.1.0'
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile "com.squareup.retrofit2:converter-scalars:$retrofitVersion"
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+    compile 'io.reactivex.rxjava2:rxjava:2.x.x'
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.2'
+    compile 'com.jude:easyrecyclerview:4.3.7'
+    //compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'org.xutils:xutils:3.3.36'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile files('libs/imageLoader.jar')
+    compile files('libs/mc_ok_ok.jar')
+    compile 'com.wang.avi:library:2.1.3'
+}

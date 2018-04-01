@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/ad_WENZIbig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="权侵朝野"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+       android:layout_alignParentRight="true"
+        android:layout_alignRight="@id/ad_WENZIbig"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="广告"
+    android:padding="1dp"
+    android:textColor="@color/colorLine"
+    android:background="@drawable/frame_back_white_boder"/>
+    <ImageView
+        android:id="@+id/mImage"
+        android:layout_below="@id/ad_WENZIbig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorMain"
+        />
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/colorLineA">-->
+        <!--<ImageView-->
+            <!--android:id="@+id/ad_ICON"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/ad_title"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="10dp"-->
+            <!--android:text="落米广告"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:layout_centerVertical="true"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="广告"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:padding="1dp"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:textColor="@color/colorLine"-->
+            <!--android:layout_toRightOf="@id/ad_title"-->
+            <!--android:background="@drawable/frame_back_white_boder"/>-->
+        <!--<Button-->
+            <!--android:id="@+id/adDown"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:textColor="@color/adBackColor"-->
+            <!--android:background="@drawable/frame_back_circleblue"-->
+            <!--android:text="立即下载"/>-->
+    <!--</RelativeLayout>-->
+
+</RelativeLayout>

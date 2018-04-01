@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.xiuer.taolezi.Base.BaseActivity">
+
+
+    <!--<LinearLayout-->
+        <!--android:background="@color/colorMain"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="64dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:orientation="horizontal">-->
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:text="@string/app_name"-->
+            <!--android:textStyle="bold"-->
+            <!--android:gravity="center"-->
+            <!--android:textAlignment="center"/>-->
+        <!--<ImageButton-->
+            <!--android:id="@+id/mNavQuit"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_width="28dp"-->
+            <!--android:layout_height="28dp"-->
+            <!--android:gravity="center"-->
+            <!--android:background="@drawable/logout"-->
+            <!--/>-->
+    <!--</LinearLayout>-->
+
+    <!--<FrameLayout-->
+
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<android.support.v7.widget.RecyclerView-->
+            <!--android:id="@+id/mHomeList"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:clickable="true"-->
+            <!--android:fadeScrollbars="true"-->
+            <!--android:overScrollMode="never"-->
+            <!--android:scrollbarSize="2dp"-->
+            <!--android:scrollbarThumbVertical="@color/colorPrimary"-->
+            <!--android:scrollbars="vertical"-->
+            <!--&gt;-->
+        <!--</android.support.v7.widget.RecyclerView>-->
+    <!--</FrameLayout>-->
+
+
+
+
+
+    <!--<com.xiuer.taolezi.Home.view.BottomNavViewView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/mBottomNavView"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="128dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_alignParentBottom="true"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_gravity="bottom"&ndash;&gt;-->
+        <!--&lt;!&ndash;&gt;&ndash;&gt;-->
+    <!--<!com.xiuer.taolezi.Home.view.BottomNavViewView>&ndash;&gt;-->
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/homeLine"
+    tools:context="com.xiuer.taolezi.User.UserUpdateSexActivity">
+    <com.xiuer.taolezi.Common.TLZTopNav
+        android:id="@+id/mNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.xiuer.taolezi.Common.TLZTopNav>
+
+
+        <RelativeLayout
+            android:id="@+id/mNan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/user_nannv_onclick"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="男"
+                android:paddingLeft="20dp"
+                android:gravity="left|center_vertical"
+                android:layout_centerVertical="true"
+                />
+            <ImageView
+                android:id="@+id/mNanSelect"
+                android:layout_margin="10dp"
+                android:layout_width="28dp"
+                android:layout_height="20dp"
+                android:background="@drawable/selected"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/homeLine"
+        android:layout_marginLeft="20dp"
+        />
+
+
+        <RelativeLayout
+            android:id="@+id/mNv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/user_nannv_onclick"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="女"
+                android:gravity="left|center_vertical"
+                android:layout_centerVertical="true"
+                />
+            <ImageView
+                android:id="@+id/mNvSelect"
+                android:layout_margin="10dp"
+                android:layout_width="28dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+
+
+
+</LinearLayout>

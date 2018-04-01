@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/colorBottomBack">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBottomBack">
+    <RelativeLayout
+       android:id="@+id/userHead"
+       android:padding="5dp"
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="86dp"
+       android:background="@color/white">
+       <ImageView
+           android:id="@+id/userHeadIcon"
+           android:padding="5dp"
+           android:layout_marginLeft="15dp"
+           android:layout_width="76dp"
+           android:layout_height="76dp"
+           android:src="@drawable/default_icon1"
+           />
+       <TextView
+           android:id="@+id/userHeadTitle"
+           android:layout_toRightOf="@id/userHeadIcon"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:text="点击头像登录"
+           android:paddingLeft="10dp"
+           android:gravity="center_vertical"/>
+        <ImageView
+
+           android:id="@+id/userHeadArrow"
+            android:layout_alignParentEnd="true"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/right_arrow" android:layout_centerVertical="true"/>
+
+
+
+   </RelativeLayout>
+
+   <com.xiuer.taolezi.User.UserItemSetView
+       android:layout_marginTop="20dp"
+       android:id="@+id/mUserDuanzi"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+    <com.xiuer.taolezi.User.UserItemSetView
+        android:id="@+id/mUserShouCang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.xiuer.taolezi.User.UserItemSetView
+        android:id="@+id/mUserDongTai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.xiuer.taolezi.User.UserItemSetView
+        android:id="@+id/mUserYijianfankui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+    <com.xiuer.taolezi.User.UserItemSetView
+        android:id="@+id/mUserAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.xiuer.taolezi.User.UserItemSetView
+        android:layout_marginTop="20dp"
+        android:id="@+id/mUserGuanggao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+</ScrollView>

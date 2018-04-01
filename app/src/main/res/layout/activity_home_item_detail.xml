@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xiuer.taolezi.Home.HomeItemDetailActivity">
+
+    <LinearLayout
+        android:id="@+id/mTopNav"
+        android:background="@color/colorMain"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/mBack"
+            android:layout_gravity="center"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:gravity="center"
+            android:onClick="back"
+            android:background="@drawable/back"
+            />
+        <TextView
+            android:id="@+id/mNavTitle"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="详情"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:gravity="center"
+            android:textAlignment="center"/>
+        <ImageButton
+            android:id="@+id/mNavQuit"
+            android:layout_gravity="center"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:gravity="center"
+            android:onClick="share"
+            android:background="@drawable/share1"
+            />
+    </LinearLayout>
+
+    <com.jude.easyrecyclerview.EasyRecyclerView
+        android:id="@+id/mHomeDetails"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_below="@id/mTopNav"
+        >
+
+    </com.jude.easyrecyclerview.EasyRecyclerView>
+
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="64dp"
+      android:layout_alignParentBottom="true"
+      android:orientation="horizontal"
+      android:background="#FFFFFF">
+
+      <TextView
+          android:id="@+id/line"
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="@color/homeLine"
+          android:layout_alignParentTop="true"
+          />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:orientation="horizontal"
+          android:layout_height="match_parent">
+          <EditText
+              android:id="@+id/mEditComment"
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="match_parent"
+              android:layout_margin="10dp"
+              android:layout_centerVertical="true"
+              android:background="@drawable/circleshapeback"
+              android:drawableLeft="@drawable/comment_edit"
+              android:drawablePadding="10dp"
+              android:drawableTintMode="src_in"
+              android:hint="期待你的神吐糟。。。"
+              android:paddingHorizontal="10dp"
+              />
+
+          <Button
+             android:layout_marginTop="5dp"
+              android:layout_toLeftOf="@id/mRepor"
+              android:id="@+id/mCollection"
+              android:layout_width="28dp"
+              android:layout_height="28dp"
+              android:layout_centerVertical="true"
+              android:onClick="collect"
+              android:background="@drawable/collect"/>
+          <Button
+              android:layout_margin="5dp"
+              android:layout_alignParentRight="true"
+              android:id="@+id/mRepor"
+              android:layout_width="28dp"
+              android:layout_height="28dp"
+              android:layout_centerVertical="true"
+              android:background="@drawable/repor"
+              android:onClick="jubao"/>
+
+      </LinearLayout>
+
+
+      <TextView
+          android:id="@+id/mSend"
+          android:layout_width="56dp"
+          android:layout_margin="10dp"
+          android:layout_height="match_parent"
+          android:text="发送"
+          android:textAppearance="@style/Base.TextAppearance.AppCompat.Large.Inverse"
+          android:gravity="center_vertical"
+          android:textColor="@color/colorBack"
+          android:visibility="invisible"
+          android:background="@color/white"
+          android:layout_alignParentRight="true"
+          />
+
+  </RelativeLayout>
+
+
+
+
+</LinearLayout>

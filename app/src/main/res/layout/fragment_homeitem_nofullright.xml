@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <com.xiuer.taolezi.Home.view.ImageRightTextView
+        android:id="@+id/mContent_NR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.xiuer.taolezi.Home.view.ImageRightTextView>
+
+    <com.xiuer.taolezi.Home.view.CountTextView
+        android:id="@+id/mCount_NR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.xiuer.taolezi.Home.view.CountTextView>
+
+
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/root_ReadCommentCount"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/root_CMContext"-->
+        <!--android:layout_marginTop="10dp">-->
+        <!--<TextView-->
+            <!--android:id="@+id/mCMReadCount_N_R"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="3阅读"-->
+            <!--android:textAppearance="@style/TextAppearance.AppCompat.Small"-->
+            <!--android:textColor="@color/colorLine"-->
+            <!--android:layout_alignParentBottom="true"/>-->
+        <!--<TextView-->
+            <!--android:id="@+id/mCMCommentCount_N_R"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="3评论"-->
+            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"-->
+            <!--android:textColor="@color/colorLine"-->
+            <!--android:layout_toRightOf="@id/mCMReadCount_N_R"-->
+            <!--android:layout_alignParentBottom="true"/>-->
+        <!--<TextView-->
+            <!--android:id="@+id/mCMLastTime_N_R"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="3月前"-->
+            <!--android:textAppearance="@style/TextAppearance.AppCompat.Small"-->
+            <!--android:textColor="@color/colorSmallText"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_alignParentBottom="true"/>-->
+    <!--</RelativeLayout>-->
+
+
+
+</LinearLayout>
